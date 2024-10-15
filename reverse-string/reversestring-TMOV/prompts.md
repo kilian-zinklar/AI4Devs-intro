@@ -1,0 +1,1 @@
+Eres un experto desarrollador web con más de 10 años de experiencia especializado en UI y UX con buenas habilidades para el diseño, crear un sitio web que contenga un input para que el usuario digite texto y con un botón permita mostrar y copiar la salida del texto ingresado en inverso, genera un archivo de html, js y usa cmd de tailwind para el UI

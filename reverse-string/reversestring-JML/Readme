@@ -1,0 +1,57 @@
+# Reverse String Web Application
+
+This is a simple web application built with HTML, CSS, and JavaScript that allows users to input a string and get the reversed version of it. The application also provides a "Copy" button to copy the reversed string to the clipboard.
+
+## Features
+- **Reverse a String**: Users can input any string and see the reversed version instantly.
+- **Copy to Clipboard**: After the string is reversed, users can copy the reversed string to the clipboard with a single click.
+- **User-Friendly Interface**: The application has a clean, simple design with buttons featuring emoticons to make the actions more intuitive.
+
+## How to Use
+
+1. Open the application in a web browser.
+2. Enter any string into the input field.
+3. Click the `🔄 Reverse` button to reverse the string.
+4. The reversed string will be displayed below.
+5. To copy the reversed string to the clipboard, click the `📋 Copy` button.
+
+## Installation and Setup
+
+To run this application locally:
+
+1. **Clone the repository** or download the source files.
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. **Navigate to the project folder**:
+    ```bash
+    cd reversestring-JML
+    ```
+
+3. **Open the `index.html` file** in your web browser to start using the application:
+    - You can simply double-click the `index.html` file in your file explorer, or open it using a browser of your choice.
+
+## Project Structure
+
+- `index.html` : The main HTML file containing the structure of the webpage.
+- `app.js` : The JavaScript file that contains the logic for reversing the string and copying it to the clipboard.
+- `styles.css` : The CSS file to style the application (if separated from HTML, but it's currently inline).
+
+## Example
+
+![App Preview](./screenshot.png)
+
+1. Enter a string: `Hello World`
+2. Click `🔄 Reverse`: Output becomes `dlroW olleH`
+3. Click `📋 Copy` to copy the reversed string to your clipboard.
+
+## Browser Support
+This application works on all modern browsers, including:
+- Chrome
+- Firefox
+- Edge
+- Safari
+
+## License
+This project is licensed under the MIT License. Feel free to use and modify it as per your requirements.

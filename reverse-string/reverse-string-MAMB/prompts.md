@@ -1,0 +1,1 @@
+Como desarrollador Senior Frontend javascript que eres, quiero que construyas una pagina web que al escribir en un input tipo texto, se genere de forma automatica un reverse-string y se muestre el resultado en la web al dar click en un boton de generar. Un ejemplo del resultado funcionando sería que al escribir reverse se muestre como resultado esrever.

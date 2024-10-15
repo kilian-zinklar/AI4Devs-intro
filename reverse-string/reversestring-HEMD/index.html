@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversor de Texto</title>
+    <!-- Incluir el Play CDN de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="text-center p-6 bg-white rounded shadow-md">
+        <h1 class="mb-4 text-2xl font-bold text-gray-800">Inversor de Texto</h1>
+        <div class="mb-4">
+            <label for="inputText" class="block mb-2 text-gray-700">Introduce un texto:</label>
+            <input type="text" id="inputText" placeholder="Escribe aquí"
+                class="w-full border-2 border-gray-300 p-2 rounded focus:outline-none focus:border-blue-500">
+        </div>
+        <button id="invertButton" class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Invertir
+        </button>
+        <p class="mt-4 text-gray-700">Texto invertido:</p>
+        <p id="textoInvertido" class="text-green-500 font-semibold"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

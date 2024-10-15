@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reversor de Texto</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded shadow-lg max-w-md w-full">
+        <h1 class="text-2xl font-bold mb-4 text-center">Reversor de Texto</h1>
+        <input id="inputTexto" type="text" placeholder="Ingresa texto aquí" class="w-full p-2 border rounded mb-4 focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <button id="btnReverso" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded w-full mb-4">Reversar Texto</button>
+        <div id="resultado" class="p-4 bg-gray-200 rounded mb-4 text-center"></div>
+        <button id="btnCopiar" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded w-full">Copiar Texto</button>
+    </div>
+    <!-- Enlazamos el archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
